@@ -1,0 +1,21 @@
+{
+    "name": "Try Copilot",
+    "customizations": {
+        "codespaces": {
+          "openFiles": ["README.md"]
+        },
+        "vscode": {
+        "extensions": [
+          "github.copilot",
+          "vsls-contrib.codetour",
+          "ms-python.python"
+        ]},
+      "portsAttributes": {
+        "3000": {
+          "label": "README",
+          "onAutoForward": "openPreview"
+        }
+      }
+    },
+    "forwardPorts": [3000]
+}
